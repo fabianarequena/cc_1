@@ -12,6 +12,21 @@ let productName = "Laptop";
 const productPrice = 999.99;
 var isAvailable = true;
 
-console.log("Product Name:", productName, "Type:", typeof, productName);
+console.log("Product Name:", productName, "Type:", typeof productName);
 console.log("Product Price:", productPrice, "Type:", typeof productPrice);
 console.log("Is Available:", isAvailable, "Type:", typeof isAvailable);
+
+//Task 3: Financial Transactions
+let accountBalance = 5000;
+
+accountBalance += 1000;
+console.log("After Deposit:", accountBalance);
+
+accountBalance -= 3000;
+console/log("After Withdrawl:", accountBalance);
+
+accountBalance *= 1.07;
+console.log("After Interest:", accountBalance);
+
+accountBalance /= 2;
+console.log("After Halving:", accountBalance);
